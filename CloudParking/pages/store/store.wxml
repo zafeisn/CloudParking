@@ -1,0 +1,9 @@
+<!--pages/store/store.wxml-->
+<view>
+  <form>
+    <view style="margin: 30rpx 0">
+      <input id="input" type="text" placeholder="行车记录仪"/>
+    </view>
+      <button id="search">搜索</button>
+  </form>
+</view>

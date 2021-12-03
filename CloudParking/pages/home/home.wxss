@@ -1,0 +1,138 @@
+/* pages/home/home.wxss */
+.content{
+  display: flex;
+  flex-direction: row;
+}
+.iconImage{
+  padding: 15px 10px 15px 20px;
+  width: 25%;
+  height: 52px;
+}
+.indexInput{
+  width: 380px;
+  height: 30px;
+  margin: 25px 10px;
+  border: 2px solid #FFBF00;
+  border-radius: 5px;
+  text-align: center;
+  color: gainsboro;
+}
+.imageSearch{
+  position: fixed;
+  float: left;
+  padding: 34px 125px;
+  width: 20px;
+  height: 20px;
+}
+.imageMessage{
+  padding: 33px 10px;
+  width: 32px;
+  height: 22px;
+}
+.nonUser{
+  width: 100%;
+  height: 30px;
+  background-color: #FAFAFA;
+  line-height: 30px;
+  text-align: center;
+  color: gainsboro;
+}
+
+.imageCar{
+  margin-left: 115px;
+  margin-top: 10px;
+  border: 1px solid #FFBF00;
+  background-color: #FFBF00;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+.imageIndoor{
+  margin-left: 50px;
+  margin-top: 10px;
+  border: 1px solid #BDBDBD;
+  background-color: #BDBDBD;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+.textA{
+  padding-left: 112px;
+  padding-right: 10px;
+  font-size: 14px;
+  color: #FFBF00;
+}
+.textB{
+  padding-left: 48px;
+  font-size: 14px;
+  color: #BDBDBD;
+}
+.imageUtils{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imageWeather{
+  margin-top: 15px;
+  margin-left: 18px;
+  border: 1px solid #FE9A2E;
+  background-color: #FE9A2E;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+.imageUtil{
+  margin-left: 20px;
+  margin-top: 15px;
+  border: 1px solid #00FF00;
+  background-color: #00FF00;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+.belowView{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+.nearbyShow{
+  color: #19070B;
+  display: flex;
+  flex-direction: row;
+}
+.nearBy{
+  padding-left: 20px;
+}
+text{
+  padding: 0 5px;
+  color: red;
+}
+.nextDetail{
+  padding-left: 80px;
+  padding-right: 8px;
+  font-size: 13px;
+  color: #A4A4A4;
+}
+.nextImage{
+  padding-top: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.lastContent{
+  width: 100%;
+  position: fixed;
+  bottom: 5px;
+  text-align: center;
+}
+.lastIndex{
+  padding-left: 20px;
+  width: 40px;
+  height: 40px;
+}
+.lastImage{
+  padding-left: 60px;
+  width: 40px;
+  height: 40px;
+}

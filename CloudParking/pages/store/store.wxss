@@ -1,0 +1,10 @@
+#input{
+  width: 99.5%;
+  height: 30px;
+  border: solid 1px rosybrown;
+}
+#search{
+  width: 50%;
+  height: auto;
+  background: #1AAD19;
+}

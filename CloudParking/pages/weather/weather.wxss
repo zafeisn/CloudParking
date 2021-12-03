@@ -1,0 +1,16 @@
+/* pages/weather/weather.wxss */
+.weather{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #4D8AD7;
+  color: #fff;
+  font-size: 23px;
+  padding-top: 300rpx;
+}
+view{
+  padding-left: 60px;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,8 @@
+<!--pages/weather/weather.wxml-->
+<view class="weather">
+  <view>城市：{{city}}\n</view>
+  <view>天气：{{weather}}\n</view>
+  <view>温度：{{temperature}}\n</view>
+  <view>风速：{{winddirection}} {{windpower}}\n</view>
+  <view>湿度：{{humidity}}</view>
+</view>

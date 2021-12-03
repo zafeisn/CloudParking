@@ -1,0 +1,80 @@
+<!-- 导航栏 -->
+<view class="content">
+  <image class="iconImage" src="../image/cloudParking.png" mode="asperctFit"></image>
+  <input class="indexInput" value="搜索车位信息"/>
+  <image class="imageSearch" src="../image/search.png"></image>
+  <image class="imageMessage" src="../image/message.png"></image>
+</view>
+<!-- 中部图标 -->
+<view class="content">
+  <view style="width:10px"></view>
+    <view bindtap="jumpLocation">
+      <image class="imageCar" src="../image/car.png"></image>
+      <view class="textA">室外车位</view>
+    </view>
+    <view>
+      <image class="imageIndoor" src="../image/indoor.png"></image>
+      <view class="textB">室内车位</view>
+    </view> 
+</view>
+<view class="content imageUtils">
+  <view style="width:20px"></view>
+  <view bindtap="jumpWeather">
+    <image class="imageWeather" src="../image/weather.png"></image>
+    <view style="margin-left: 10px;font-size:14px;color:#FE9A2E">天气</view>
+  </view>
+  <view>
+    <image class="imageUtil" src="../image/environment.png"></image>
+    <view style="margin-left: 18px;font-size:14px;color:#00FF00">路况信息</view>
+  </view>
+  <view>
+    <image class="imageUtil" style="border:1px solid #2E64FE;background-color:#2E64FE" src="../image/play.png"></image>
+    <view style="margin-left: 18px;font-size:14px;color:#2E64FE">当地玩乐</view>
+  </view>
+  <view bindtap="jumpRecord">
+    <image class="imageUtil" style="border:1px solid #F79F81;background-color:#F79F81" src="../image/record.png"></image>
+    <view style="margin-left: 18px;font-size:14px;color:#F79F81">旅行日记</view>
+  </view>
+  <view>
+    <image class="imageUtil" style="border:1px solid #0B615E;background-color:#0B615E" src="../image/synchronize.png"></image>
+    <view style="margin-left: 18px;font-size:14px;color:#0B615E">体验记录</view>
+  </view>
+</view>
+<view class="nonUser">数据正在实时更新</view>
+<!-- 下面部分 -->
+<view class="belowView">
+  <view class="nearbyShow">
+    <view class="nearBy">附近有<text>5个</text>室外空闲停车位</view>
+      <view class="nextDetail" bindtap="jumpLocation">点击查看详情</view>
+      <view bindtap="jumpLocation">
+      <image class="nextImage" src="../image/next.png"></image>
+    </view>
+  </view>
+</view>
+<view>
+  <map 
+  style="width:100%;height:350px"
+  latitude="{{latitude}}"
+  longitude="{{longitude}}"
+  markers="{{markers}}"
+  covers="{{covers}}"></map>
+</view>
+<view class="content lastContent">
+  <view style="width:20px"></view>
+  <view>
+    <image class="lastIndex" src="../image/index.png"></image>
+    <view style="margin-left:19px;font-size:14px;color:#585858">首页</view>
+  </view>
+  <view>
+    <image class="lastImage" src="../image/motivation.png "></image>
+    <view style="margin-left:58px;font-size:14px;color:#585858">地点</view>
+  </view>
+  <view bindtap="junmStore">
+    <image class="lastImage" src="../image/store.png"></image>
+    <view style="margin-left:58px;font-size:14px;color:#585858">商城</view>
+  </view>
+  <view>
+    <image class="lastImage" src="../image/me.png"></image>
+    <view style="margin-left:58px;font-size:14px;color:#585858">我的</view>
+  </view>
+</view>

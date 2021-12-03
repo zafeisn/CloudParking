@@ -1,0 +1,17 @@
+<!--pages/location/location.wxml-->
+<view class="mbody">
+  <map class="mmap" style="width:100%;height:720px" markers="{{markers}}"
+    latitude="{{markers[0].latitude}}"
+    longitude="{{markers[0].longitude}}"
+    bindmarkertap="getDetail">
+  </map>
+  <view class="last">
+    <image bindtap="jumpNavigation" src="../../pages/image/location/daohang.png"></image>
+    <view class="none">
+    <button class="btn-search" bindtap="getMap">获取空闲车位信息</button></view>
+  </view>
+</view>
+
+
+
+
